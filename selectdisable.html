@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <title>Select disable onchange</title>
+</head>
+<body>
+  <table class="table table-striped table-border map-column-table">
+    <thead id="table_data">
+       <tr>
+          <th>Column Header <small class="text-muted">(File Field)</small></th>
+          <th>Unipe Fields</th>
+          <th>Preview </th>
+          <th class="text-center">Mapped</th>
+       </tr>
+    </thead>
+    <tbody id="load_more_results">
+       <input type="hidden" name="file_id" id="file_details" value="124">
+       <input type="hidden" name="entity_id" id="entity_id" value="1">
+       <tr class="listDataRow">
+          <td><strong>Application No. </strong><span class="icon icon-right-arrow-long"></span></td>
+          <td>
+             <select name="mapped_column[]" class="sis_mapping_select" tabindex="-98">
+                <option value="">Do not import</option>
+                <option value="application_no">Application No.</option>
+                <option value="student_name">Student Name</option>
+                <option value="dob">DOB</option>
+                <option value="field_28" >Gender</option>
+                <option value="field_29" >Email</option>
+                <option value="field_30" >Mobile</option>
+                <option value="field_31">Category</option>
+             </select>
+             <span class="error invalid-feedback" id="map_label_error-0" style="display:block"></span>
+          </td>
+          <td>67</td>
+          <td class="mapped active">
+             <span class="icon icon-check-circle"></span>
+          </td>
+       </tr>
+       <tr class="listDataRow">
+          <td><strong>Student Name </strong></td>
+          <td>
+             <select name="mapped_column[]" class="sis_mapping_select" tabindex="-98">
+                <option value="">Do not import</option>
+                <option value="application_no">Application No.</option>
+                <option value="student_name">Student Name</option>
+                <option value="dob" >DOB</option>
+                <option value="field_28">Gender</option>
+                <option value="field_29" >Email</option>
+                <option value="field_30" >Mobile</option>
+                <option value="field_31">Category</option>
+             </select>
+             <span class="error invalid-feedback" id="map_label_error-0" style="display:block"></span>
+          </td>
+          <td>Himanshu</td>
+          <td class="mapped">
+             <span class="icon icon-check-circle"></span>
+          </td>
+       </tr>
+       <tr class="listDataRow">
+          <td><strong>DOB </strong></td>
+          <td>
+             <select name="mapped_column[]" class="sis_mapping_select" tabindex="-98">
+                <option value="">Do not import</option>
+                <option value="application_no">Application No.</option>
+                <option value="student_name">Student Name</option>
+                <option value="dob" >DOB</option>
+                <option value="field_28" >Gender</option>
+                <option value="field_29" >Email</option>
+                <option value="field_30" >Mobile</option>
+                <option value="field_31">Category</option>
+             </select>
+             <span class="error invalid-feedback" id="map_label_error-0" style="display:block"></span>
+          </td>
+          <td>09/11/90</td>
+          <td class="mapped">
+             <span class="icon icon-check-circle"></span>
+          </td>
+       </tr>
+       <tr class="listDataRow">
+          <td><strong>Gender </strong></td>
+          <td>
+             <select name="mapped_column[]" class="sis_mapping_select" tabindex="-98">
+                <option value="">Do not import</option>
+                <option value="application_no">Application No.</option>
+                <option value="student_name">Student Name</option>
+                <option value="dob" >DOB</option>
+                <option value="field_28">Gender</option>
+                <option value="field_29" >Email</option>
+                <option value="field_30" >Mobile</option>
+                <option value="field_31">Category</option>
+             </select>
+             <span class="error invalid-feedback" id="map_label_error-0" style="display:block"></span>
+          </td>
+          <td>male</td>
+          <td class="mapped">
+             <span class="icon icon-check-circle"></span>
+          </td>
+       </tr>
+       <tr class="listDataRow">
+          <td><strong>Email </strong></td>
+          <td>
+             <select name="mapped_column[]" class="sis_mapping_select" tabindex="-98">
+                <option value="">Do not import</option>
+                <option value="application_no" >Application No.</option>
+                <option value="student_name">Student Name</option>
+                <option value="dob">DOB</option>
+                <option value="field_28">Gender</option>
+                <option value="field_29">Email</option>
+                <option value="field_30">Mobile</option>
+                <option value="field_31">Category</option>
+             </select>
+             <span class="error invalid-feedback" id="map_label_error-0" style="display:block"></span>
+          </td>
+          <td>jack@gmail.com</td>
+          <td class="mapped">
+             <span class="icon icon-check-circle"></span>
+          </td>
+       </tr>
+       <tr class="listDataRow">
+          <td><strong>Mobile </strong></td>
+          <td>
+             <select name="mapped_column[]" class="sis_mapping_select" tabindex="-98">
+                <option value="">Do not import</option>
+                <option value="application_no" >Application No.</option>
+                <option value="student_name">Student Name</option>
+                <option value="dob">DOB</option>
+                <option value="field_28">Gender</option>
+                <option value="field_29">Email</option>
+                <option value="field_30">Mobile</option>
+                <option value="field_31">Category</option>
+             </select>
+             <span class="error invalid-feedback" id="map_label_error-0" style="display:block"></span>
+          </td>
+          <td>Unnamed: 5</td>
+          <td class="mapped">
+             <span class="icon icon-check-circle"></span>
+          </td>
+       </tr>
+       <tr class="listDataRow">
+          <td><strong>Category </strong></td>
+          <td>
+             <select name="mapped_column[]" class="sis_mapping_select" tabindex="-98">
+                <option value="">Do not import</option>
+                <option value="application_no" >Application No.</option>
+                <option value="student_name">Student Name</option>
+                <option value="dob" >DOB</option>
+                <option value="field_28" >Gender</option>
+                <option value="field_29">Email</option>
+                <option value="field_30" >Mobile</option>
+                <option value="field_31">Category</option>
+             </select>
+             <span class="error invalid-feedback" id="map_label_error-0" style="display:block"></span>
+          </td>
+          <td>jj</td>
+          <td class="mapped">
+             <span class="icon icon-check-circle"></span>
+          </td>
+       </tr>
+    </tbody>
+ </table>
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script>
+   function disableUsedOptions($table) {
+      $selects = $table.find("select");
+      $selects.on("change", function() {
+         $selects = $table.find("select");
+         console.log("In table:");
+         console.log($table);
+         console.log("there are " + $selects.length + " selects");
+         if ($selects.length <= 1) return;
+         let selected = [];
+         $selects.each(function(index, select) {
+            if (select.value !== "") {
+            selected.push(select.value);
+            }
+         });
+      $table.find("option").prop("disabled", false);
+      for (var index in selected) {
+         $table
+         .find('option[value="' + selected[index] + '"]:not(:selected)')
+         .prop("disabled", true);
+      }
+      });
+      $selects.trigger("change");
+   }
+
+   $tables = $("table");
+   $tables.each(function(index) {
+      $table = $(this);
+      disableUsedOptions($table);
+   });
+</script>
+
+</body>
+</html>
